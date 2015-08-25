@@ -24,4 +24,4 @@ Python application to break captcha of URP（University Resource Plan）System ,
 Welcome to fork my code and add more segmentation, feature_extraction, or classification to this project.
 
 ## Contact
-[564936642@qq.com]<564936642@qq.com>
+<564936642@qq.com>
