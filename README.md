@@ -10,18 +10,18 @@ Python application to break captcha of URP（University Resource Plan）System ,
   from analyzer import KNNAnalyzer
 ```
 3. Using existing image to train classification model  
-```python
-  segmenter = NormalSegmenter()
-  extractor = SimpleFeatureExtractor(feature_size=20, stretch=False)
-  analyzer = KNNAnalyzer(segmenter, extractor)
-  analyzer.train('../data/features.jpg')
-```
+  ```python
+    segmenter = NormalSegmenter()
+    extractor = SimpleFeatureExtractor(feature_size=20, stretch=False)
+    analyzer = KNNAnalyzer(segmenter, extractor)
+    analyzer.train('../data/features.jpg')
+  ```
 4. Using classification model to test your own images
-```python
-  result = analyzer.analyze('../tmp/vcode.jpg')
-```
+  ```python
+    result = analyzer.analyze('../tmp/vcode.jpg')
+  ```
 ## Contribution
 Welcome to fork my code and add more segmentation, feature_extraction, or classification to this project.
 
 ## Contact
-<564936642@qq.com>
+<564936642@qq.com> or <jeffchen328@gmail.com>
