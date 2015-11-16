@@ -2,7 +2,10 @@
 Python application to break captcha of URP（University Resource Plan）System , using OpenCV(2.1)
 
 ## How to Use
-* Clone the code to your local project by `git clone git@github.com:JetMuffin/CodeAnalyzer.git`
+* Clone the code to your local project by 
+```
+git clone git@github.com:JetMuffin/CodeAnalyzer.git
+```
 * Import packages into your python program , for example:
 ```python
   from segmentation import NormalSegmenter
