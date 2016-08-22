@@ -3,8 +3,6 @@
 import numpy
 import cv2
 from segmentation import region_from_segment
-from segmentation import NormalSegmenter
-import os
 
 FEATURE_DATATYPE = numpy.float32
 
