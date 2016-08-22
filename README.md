@@ -1,6 +1,7 @@
 # urp-decaptcha
 Python application to break captcha of URP（University Resource Plan）System , using OpenCV(2.1)
 
+[![Build Status](https://api.travis-ci.org/JetMuffin/urp-decaptcha.svg?branch=master)](https://travis-ci.org/JetMuffin/urp-decaptcha)
 ## Prerequisites
 
 * pip
