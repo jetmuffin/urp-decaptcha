@@ -14,6 +14,7 @@ def setup_analyzer(train_data):
     analyzer = KNNAnalyzer(segmenter, extractor)
     analyzer.train(train_data)
 
+
 if __name__ == '__main__':
     parser = OptionParser()
     parser.add_option('-s', '--show', help='show input image',
